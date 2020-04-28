@@ -11,8 +11,9 @@ Setting up blockstack radiks server using docker-compose
         docker-compose up 
 ```
 
-* deploy
+* deploy （Be careful of safety and take any action in need）
 
 ```
         docker-compose up -d
+
 ```
