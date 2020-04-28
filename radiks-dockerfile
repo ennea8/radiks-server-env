@@ -1,0 +1,9 @@
+FROM node:10.5.0
+
+RUN mkdir /app
+WORKDIR /app
+# RUN npm install -g radiks-server
+RUN yarn global add radiks-server
+
+EXPOSE 1260
+# CMD radiks-server
